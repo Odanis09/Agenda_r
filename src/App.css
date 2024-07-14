@@ -1,0 +1,67 @@
+.App {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: white;
+  border-radius: 4px;
+}
+
+h1, h2 {
+  color: #333;
+  text-align:center ;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #0aadca;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #0aadca;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #128a9f;
+}
+
+.message {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+#contact-list {
+  margin-top: 20px;
+}
+
+.contact-item {
+  background-color: #0aadca;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
